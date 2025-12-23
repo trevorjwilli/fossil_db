@@ -1,0 +1,19 @@
+[project]
+name = "fossil-db"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas>=1.1.1",
+    "ipyleaflet>=0.20.0",
+    "pandas>=2.3.3",
+    "paramiko<3.0",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.2.1",
+    "seaborn>=0.13.2",
+    "shiny>=1.5.0",
+    "shinywidgets>=0.7.0",
+    "sqlalchemy>=2.0.44",
+    "sshtunnel>=0.4.0",
+]
